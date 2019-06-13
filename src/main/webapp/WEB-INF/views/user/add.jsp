@@ -15,7 +15,8 @@
 		<h1>Cadastro de Usuários</h1>
 		<hr>
 		<div>
-			<a class="btn btn-default" href="#">Home</a>
+			<spring:url value="usuario/todos" var="home" />
+			<a class="btn btn-default" href="${home }">Home</a>
 		</div>
 		<hr>
 		<div>
